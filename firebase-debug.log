@@ -1,0 +1,38 @@
+[debug] [2019-08-21T08:57:04.762Z] ----------------------------------------------------------------------
+[debug] [2019-08-21T08:57:04.767Z] Command:       C:\Program Files\nodejs\node.exe c:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-08-21T08:57:04.767Z] CLI Version:   7.2.4
+[debug] [2019-08-21T08:57:04.767Z] Platform:      win32
+[debug] [2019-08-21T08:57:04.767Z] Node Version:  v10.2.0
+[debug] [2019-08-21T08:57:04.769Z] Time:          Wed Aug 21 2019 09:57:04 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2019-08-21T08:57:04.769Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-21T08:57:04.786Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-21T08:57:04.788Z] > authorizing via signed-in user
+[debug] [2019-08-21T08:57:04.788Z] [iam] checking project socialape-9a1c9 for permissions ["firebase.projects.get"]
+[debug] [2019-08-21T08:57:04.792Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/socialape-9a1c9:testIamPermissions  
+
+[debug] [2019-08-21T08:57:06.698Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-21T08:57:06.702Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/socialape-9a1c9  
+ 
+[debug] [2019-08-21T08:57:07.217Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Hp\Desktop\UDEMY\socialape-functions'...
+[info] 
+[warn] !  Your requested "node" version "8" doesn't match your global version "10"
+[info] +  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\Hp\Desktop\UDEMY\socialape-functions\functions" for Cloud Functions...
+[debug] [2019-08-21T08:57:09.025Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Hp\\Desktop\\UDEMY\\socialape-functions\\functions","node_version":"10.2.0"}
+[debug] [2019-08-21T08:57:09.025Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-21T08:57:09.032Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.2.0","resolution":"C:\\Users\\Hp\\Desktop\\UDEMY\\socialape-functions\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-21T08:57:09.037Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\Hp\\Desktop\\UDEMY\\socialape-functions\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-21T08:57:09.040Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\Hp\\Desktop\\UDEMY\\socialape-functions\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] +  functions[api]: http function initialized (http://localhost:5000/socialape-9a1c9/us-central1/api).
+[info] i  functions[createNotificationOnLike]: function ignored because the firestore emulator does not exist or is not running.
+[info] i  functions[deleteNotificationOnLike]: function ignored because the firestore emulator does not exist or is not running.
+[info] i  functions[createNotificationOnComment]: function ignored because the firestore emulator does not exist or is not running.
+[debug] [2019-08-21T08:57:13.721Z] File C:\Users\Hp\Desktop\UDEMY\socialape-functions\functions\package.json changed, reloading triggers
+[debug] [2019-08-21T08:57:15.938Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Hp\\Desktop\\UDEMY\\socialape-functions\\functions","node_version":"10.2.0"}
+[debug] [2019-08-21T08:57:15.938Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-21T08:57:15.949Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.2.0","resolution":"C:\\Users\\Hp\\Desktop\\UDEMY\\socialape-functions\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-21T08:57:15.955Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\Hp\\Desktop\\UDEMY\\socialape-functions\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-21T08:57:15.958Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\Hp\\Desktop\\UDEMY\\socialape-functions\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
