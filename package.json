@@ -14,7 +14,7 @@
   "dependencies": {
     "@google-cloud/functions-emulator": "^1.0.0-beta.6",
     "busboy": "^0.3.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "firebase": "^6.4.0",
     "firebase-admin": "^8.0.0",
     "firebase-auth": "^0.1.2",
